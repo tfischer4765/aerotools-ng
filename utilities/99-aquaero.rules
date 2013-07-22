@@ -1,0 +1,2 @@
+KERNEL=="hiddev*", ATTRS{idProduct}=="f001",  ATTRS{idVendor}=="0c70", GROUP="aquaero", MODE="0660", SYMLINK+="aquaero5"
+KERNEL=="hiddev*", ATTRS{idProduct}=="f003",  ATTRS{idVendor}=="0c70", GROUP="aquaero", MODE="0660", SYMLINK+="ac_mps"
